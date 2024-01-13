@@ -1,0 +1,1 @@
+hi so i tried following a tutorial of 'to do list' using class based views in django . this is my first time trying to use class based views , used to use function based earlier. definitely made things easier
