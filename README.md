@@ -14,9 +14,6 @@ Python, Django, HTML, CSS
 - **Structured Development**: Facilitates organized development and maintenance of the application.
 - **Enhanced Code Readability**: Simplifies debugging and future enhancements.
 
-### Conclusion:
-The Productivity Manager demonstrates the effectiveness of Python, Django, MVT architecture, and Class-Based Views in building a professional and scalable productivity management tool.
-
 ### Execution Process
 
 To run this project from GitHub, follow these steps:
@@ -62,3 +59,6 @@ To run this project from GitHub, follow these steps:
    Open a web browser and navigate to `http://127.0.0.1:8000/` to use the Productivity Manager application. Access the admin interface at `http://127.0.0.1:8000/admin/` using the superuser credentials.
 
 By following these steps, you can fetch, set up, and run the Productivity Manager project, experiencing its full functionality on your local machine.
+
+### Conclusion:
+The Productivity Manager demonstrates the effectiveness of Python, Django, MVT architecture, and Class-Based Views in building a professional and scalable productivity management tool.
