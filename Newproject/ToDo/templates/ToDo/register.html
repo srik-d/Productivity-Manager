@@ -1,13 +1,14 @@
-{% extends 'C:\Users\HP\Desktop\project\Newproject\ToDo\templates\ToDo\main.html' %}
-
+{% extends 'main.html' %}
 {% block content %}
 
-<h1>Register</h1>
+<div class="header-bar">
+ <h1>Register</h1>
+</div>
+
 
 <form method="POST">
-    {% csrf_token %}
-    {{form.as_p}}
-    <input type="submit" value="Register">
+  {% csrf_token %} {{form.as_p}}
+  <input type="submit" value="Register" />
 </form>
 
 <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>

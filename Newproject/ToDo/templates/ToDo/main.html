@@ -98,7 +98,7 @@
         font-size: 1.5em;
         text-decoration: none;
         margin-left: 10px;
-        line-height:0;
+        line-height: 0;
         text-shadow: 1px 1px 2px #e57373;
       }
 
@@ -108,28 +108,26 @@
       }
       form {
         margin-top: 20px;
-
-
       }
 
-      #search-add-wrapper{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      padding:10px;
+      #search-add-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
       }
       #add-link {
-    color: rgb(46, 139, 87);
-    text-decoration: none;
-    font-size: 30px;
-    margin-top:15px;
-    margin-right:10px;
-    text-shadow: 1px 1px 2px rgb(46, 139, 87);
-}
+        color: rgb(46, 139, 87);
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-right: 10px;
+        text-shadow: 1px 1px 2px rgb(46, 139, 87);
+      }
 
       input[type="text"],
-      input[type="password"],textarea{
-
+      input[type="password"],
+      textarea {
         padding: 10px;
         width: calc(100% - 22px);
         width: 250px;
@@ -139,49 +137,39 @@
         border: 1px solid #424242;
         border-radius: 4px;
         box-sizing: border-box;
-         line-height: 1.2;
+        line-height: 1.2;
       }
 
-      label{
-       padding-top:10px;
-
+      label {
+        padding-top: 10px;
       }
       input[type="submit"] {
-            padding: 10px 20px;
-            background-color: #64b5f6;
+        padding: 10px 20px;
+        background-color: #64b5f6;
 
-            border-radius: 4px;
-            cursor: pointer;
-        }
+        border-radius: 4px;
+        cursor: pointer;
+      }
       input[type="submit"]:hover {
         background-color: #42a5f5;
       }
 
-
       #button {
-            padding: 10px 10px;
-            background-color: #424242;
-            color: #e0e0e0;
-            border: none;
+        padding: 10px 10px;
+        background-color: #424242;
+        color: #e0e0e0;
+        border: none;
 
-            cursor: pointer;
-            height: 38px;
-        }
+        cursor: pointer;
+        height: 38px;
+      }
 
-        #button:hover {
-            background-color: #575757;
-        }
-
-
-
-
+      #button:hover {
+        background-color: #575757;
+      }
     </style>
   </head>
   <body>
-    <div class="container">
-      {% block content %}
-
-      {% endblock content %}
-    </div>
+    <div class="container">{% block content %} {% endblock content %}</div>
   </body>
 </html>
