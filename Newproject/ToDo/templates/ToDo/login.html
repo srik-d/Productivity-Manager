@@ -1,4 +1,10 @@
-<h1>Login</h1>
+{% extends 'C:\Users\HP\Desktop\project\Newproject\ToDo\templates\ToDo\main.html' %}
+
+{% block content %}
+ <div class="header-bar">
+  <h1>Login</h1>
+ </div>
+
 
 <form method="POST">
     {% csrf_token %}
@@ -6,4 +12,6 @@
     <input type="submit" value="Login">
 </form>
 
-<p>Dont have an account? <a href="{% url 'register' %} ">Register</a></p>
+<p>Don't have an account? <a href="{% url 'register' %} ">Register</a></p>
+
+{% endblock content %}
